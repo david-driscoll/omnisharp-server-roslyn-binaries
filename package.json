@@ -9,7 +9,7 @@
   "homepage": "https://github.com/omnisharp/omnisharp-server-roslyn-binaries",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Mpdreamz/omnisharp-server-binaries.git"
+    "url": "git@github.com:omnisharp/omnisharp-server-roslyn-binaries.git"
   },
   "author": "Jason Imison, Martijn Laarman, Chad Tolkien, OmniSharp team",
   "license": "MIT"
