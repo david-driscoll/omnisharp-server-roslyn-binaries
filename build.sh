@@ -14,9 +14,9 @@ cp -f omnisharp.cmd.patch lib/server/omnisharp.cmd
 #cd OmniSharpServer
 #xbuild
 #cd ..
-#git commit  -am "updated omnisharp server"
-#npm version patch -m "updating to %s"
-#npm publish
-#git push origin master
+git commit  -am "updated omnisharp server"
+npm version patch -m "updating to %s"
+npm publish
+git push origin master
 
 
