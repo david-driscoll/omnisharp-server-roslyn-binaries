@@ -1,0 +1,16 @@
+{
+  "name": "omnisharp-server-binaries",
+  "version": "0.1.9",
+  "description": "Allows you to pull in omnisharp binaries through npm",
+  "main": "lib/omni-binaries.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/Mpdreamz/omnisharp-server-binaries",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mpdreamz/omnisharp-server-binaries.git"
+  },
+  "author": "Jason Imison, Martijn Laarman",
+  "license": "MIT"
+}
