@@ -7,12 +7,9 @@ popd
 rm -rf lib/server
 mkdir -p lib/server
 cp -a omnisharp-roslyn/artifacts/build/omnisharp/* lib/server
-
-echo ---------------------------
-echo build for mono, manually build for windows now 
-echo -- copy its kre-clr-* folder in lib/server/approot/packages
-echo -- copy its omnisharp.cmd to lib/server/approot
-echo then call ./release
+curl -LO http://nuget.org/nuget.exe
+mono nuget.exe install kre-clr-win-x86 -Prerelease -OutputDirectory lib/server/approot/packages
+cp -f omnisharp.cmd.patch lib/server/omnisharp.cmd
 
 #cd OmniSharpServer
 #xbuild
