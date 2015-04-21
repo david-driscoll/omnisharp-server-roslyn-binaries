@@ -1,6 +1,6 @@
 {
   "name": "omnisharp-server-roslyn-binaries",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "Allows you to pull in omnisharp binaries through npm",
   "main": "lib/omni-binaries.js",
   "scripts": {
