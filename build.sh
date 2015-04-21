@@ -10,6 +10,8 @@ cp -a omnisharp-roslyn/artifacts/build/omnisharp/* lib/server
 curl -LO http://nuget.org/nuget.exe
 mono nuget.exe install kre-clr-win-x86 -Prerelease -OutputDirectory lib/server/approot/packages
 cp -f omnisharp.cmd.patch lib/server/omnisharp.cmd
+cp -f omnisharp.patch lib/server/omnisharp
+chmod +x lib/server/omnisharp
 
 #cd OmniSharpServer
 #xbuild
