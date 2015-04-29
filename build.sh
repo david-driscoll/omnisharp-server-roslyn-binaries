@@ -13,6 +13,9 @@ cp -f omnisharp.cmd.patch lib/server/omnisharp.cmd
 cp -f omnisharp.patch lib/server/omnisharp
 chmod +x lib/server/omnisharp
 
+cd src/OmniSharp.TypeScriptGeneration
+k run ../../lib/server/omnisharp
+
 #cd OmniSharpServer
 #xbuild
 #cd ..
@@ -20,5 +23,4 @@ git commit  -am "updated omnisharp server"
 npm version patch -m "updating to %s"
 npm publish
 git push origin master
-
 
