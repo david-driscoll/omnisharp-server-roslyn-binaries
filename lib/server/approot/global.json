@@ -58,6 +58,10 @@
       "version": "6.0.0-alpha3",
       "sha": "3bJrdiL/R0QBkdwRQK9Dgj+jU84a9zW+xFTMlqT21FhYDG3dNBFPCepv0TlikHH8RGXeEHpzGJVNNgkdqtUjsw=="
     },
+    "ScriptCs.Hosting.KpmTemp": {
+      "version": "0.14.1",
+      "sha": "WnfQlbCxJX4Wm7EGOa+hbXZpN9rx0oCFIu8JruVHpn8LBfuhezEE5t5ywz4AcNxKxo1K3B7w4TzXQFOLAounfQ=="
+    },
     "Microsoft.AspNet.Hosting": {
       "version": "1.0.0-beta3",
       "sha": "hchHrRUsJ9/oi+4pjzJFxVoubma/AKHY3Rn44Gnyd+MF4XcDlztcYVj4MZQTFDMqT45FqIXAWKZG59+Ro3iW7w=="
@@ -122,6 +126,22 @@
       "version": "1.0.18-beta",
       "sha": "4PtC2U6seQthZMvXvGTxXZUqlF0oV9jzYNTkG0Yo/D6cLO5AH3lrxh2djGyKsDYnAZjBCoyA/z3vHRCeaBEp4w=="
     },
+    "ScriptCs.Core": {
+      "version": "0.14.1",
+      "sha": "WaiFpj/OjgY1gMtm/2MQUghu65n4wwUHM+QPm0TBiBVyW6S6vMZNdx1yzLIY4rfcNSP3gBo/e7ZW0XOEHFMt8A=="
+    },
+    "Autofac.Mef": {
+      "version": "3.0.3",
+      "sha": "n27ambqDJCyzjHmkD7sHXMyAfmFlvzCghyQM5fE2A4RxQ9c/F2TvpUzlC27hbQOoz8+yK9iY35ccXW/Xzal16A=="
+    },
+    "Common.Logging": {
+      "version": "2.1.2",
+      "sha": "aqqmzNbkqmGBkKL84h2gv5BKBW2tj8E11KXYlAUiiNxGXFWG4fxvS7ashi3knx3rsOph8x9HaRmVqLyjv1PWnQ=="
+    },
+    "Nuget.Core": {
+      "version": "2.8.5",
+      "sha": "7ZLQxwAVp55iEWzzu6DP7FNesg/c6NnLo2M/tCs+xA2pOXYEIW2H4XaDqLQEblXYXS01ZpRsiZOFnS6QVwN20w=="
+    },
     "Microsoft.AspNet.FileProviders": {
       "version": "1.0.0-beta3",
       "sha": "gsrkDvGuEdM8wMT8cIEmS0/5aBR73bKa8LppTQwyCllQ6UkKjD5B6aEzkpFagW5u2ci21wMhFeA3Eq+JIEpsPA=="
@@ -153,6 +173,18 @@
     "Microsoft.Framework.DependencyInjection": {
       "version": "1.0.0-beta3",
       "sha": "f3ov4cWy+4kRqsAq83d8DNszNrwfOJn/V+1yumC74IqWsJaJWMBRS4ySUcblYcb3x6zs2QvofuvjvqFP2MQ17Q=="
+    },
+    "ScriptCs.Contracts": {
+      "version": "0.14.1",
+      "sha": "Oz6x2ErV6i1Kww195sMQUD3ROc2aoIHfKmqsxcDs/b23UcL+ibrfTODRO0k8AKhP3bpYmcVzkQmrXwWhwS5YXw=="
+    },
+    "Autofac": {
+      "version": "3.3.1",
+      "sha": "dOowodF/tGrsEhiTnrBb+zcXcKxitHMqHw8J+F5ELBsdm2Cypu6ZaSZo4T2wljnMBVqZXLnQWVf2NNIk4IR+2w=="
+    },
+    "Microsoft.Web.Xdt": {
+      "version": "2.1.0",
+      "sha": "/ieJ02r4MEJM21Eyl+c5kwoJWPhy+qEEcN68JaqDoamabgxJI1jGi/kNLuKvHUCl6tU7E0rMvaR6FmEnDWtS4A=="
     },
     "Microsoft.AspNet.FileProviders.Interfaces": {
       "version": "1.0.0-beta3",

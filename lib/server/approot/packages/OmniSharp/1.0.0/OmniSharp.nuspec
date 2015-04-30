@@ -24,6 +24,7 @@
         <dependency id="Microsoft.Framework.FileSystemGlobbing" version="1.0.0-beta4-11256" />
         <dependency id="Microsoft.Composition" version="1.0.30" />
         <dependency id="ICSharpCode.NRefactory" version="6.0.0-alpha3" />
+        <dependency id="ScriptCs.Hosting.KpmTemp" version="0.14.1" />
       </group>
       <group targetFramework="Asp.NetCore5.0">
         <dependency id="OmniSharp.Stdio" version="1.0.0" />
@@ -46,6 +47,7 @@
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Globalization" targetFramework="Asp.Net5.0" />
+      <frameworkAssembly assemblyName="System.Reflection" targetFramework="Asp.Net5.0" />
       <frameworkAssembly assemblyName="Microsoft.Build" targetFramework="Asp.Net5.0" />
       <frameworkAssembly assemblyName="Microsoft.Build.Engine" targetFramework="Asp.Net5.0" />
       <frameworkAssembly assemblyName="Microsoft.Build.Framework" targetFramework="Asp.Net5.0" />
