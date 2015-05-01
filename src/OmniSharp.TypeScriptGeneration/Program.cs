@@ -14,7 +14,6 @@ namespace OmniSharp.TypeScriptGeneration
 {
     public class Program
     {
-
         public void Main(string[] args)
         {
             var path = string.Empty;
@@ -23,13 +22,11 @@ namespace OmniSharp.TypeScriptGeneration
                 path = args[0];
             }
 
-
             var fluent = TypeScript.Definitions();
             fluent.ScriptGenerator.IndentationString = "    ";
 
             fluent.WithMemberTypeFormatter(TsFluentFormatters.FormatPropertyType);
             fluent.WithMemberFormatter(TsFluentFormatters.FormatPropertyName);
-            //definitions.WithTypeFormatter(IgnoreInvalidTypes);
 
             foreach (var model in GetApplicableTypes())
             {
@@ -54,7 +51,6 @@ namespace OmniSharp.TypeScriptGeneration
                 Console.Write(result);
                 Console.ReadLine();
             }
-
         }
 
         private IEnumerable<Type> GetApplicableTypes()
