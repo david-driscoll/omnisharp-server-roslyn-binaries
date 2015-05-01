@@ -1,21 +1,21 @@
 language: csharp
 mono:
-  - 3.12.0
+- 3.12.0
 sudo: required
 before_script:
-  - sudo apt-get install build-essential
-  - sudo apt-get install python libssl-dev curl
-  - curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-  - nvm install 0.12
+- sudo apt-get install build-essential
+- sudo apt-get install python libssl-dev curl
+- curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+- nvm install 0.12
 script:
-  - . ./travis-build.sh
+- ". ./travis-build.sh"
 deploy:
   provider: npm
   email: david.driscoll@gmail.com
   api_key:
-    secure: AL4YXSTSh2HdLd8xDd+nKDiml0NBKD/vvX+Us7CA8WnBjW33gfR2wV5DW2Ct4x1J2GMx6TEFjuTkBpS68A3YwdUJxGXBC+cqqHZtfeURyobFoE8dg9Zep0t/OmMOMdao8q+cinr3KjU6MM2/ZQRQpLngqYkERBFcoaBdriiSvks=
+    secure: gC928QE/c38zu2zEZMuUpMc7hYZo0cLgvEpjoKnw+dY5VPlhhtbtykME58OfRYhkax2CFlZvqtbEMo8vb0CR1tWlGAtiMJz8t771Jdg8BBPqG8n1nz/KO2+ZoZSDdfSppdp8d2xhPzkHV/ug1V6WQNukEucfKFxscpRfkUG0RIE=
   on:
     tags: true
     repo: OmniSharp/omnisharp-server-roslyn-binaries
 after_deploy:
-  - cat npm-debug.log
+- cat npm-debug.log
