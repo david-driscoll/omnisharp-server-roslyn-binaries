@@ -16,4 +16,4 @@ deploy:
     secure: AL4YXSTSh2HdLd8xDd+nKDiml0NBKD/vvX+Us7CA8WnBjW33gfR2wV5DW2Ct4x1J2GMx6TEFjuTkBpS68A3YwdUJxGXBC+cqqHZtfeURyobFoE8dg9Zep0t/OmMOMdao8q+cinr3KjU6MM2/ZQRQpLngqYkERBFcoaBdriiSvks=
   on:
     tags: true
-    repo: OmniSharp/omnisharp-node-client
+    repo: OmniSharp/omnisharp-server-roslyn-binaries
