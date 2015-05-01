@@ -35,4 +35,4 @@ kpm restore
 k run ../../lib/server
 popd
 
-npm version $TRAVIS_TAG -m "updating to $TRAVIS_TAG"
+npm --no-git-tag-version version $TRAVIS_TAG -m "updating to $TRAVIS_TAG"
