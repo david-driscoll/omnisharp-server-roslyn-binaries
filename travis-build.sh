@@ -27,7 +27,5 @@ pushd src/OmniSharp.TypeScriptGeneration
 k run ../../lib/server
 popd
 
-git commit  -am "updated omnisharp server"
-npm version patch -m "updating to %s"
-npm publish
+npm version $TRAVIS_TAG -m "updating to $TRAVIS_TAG"
 git push origin master
