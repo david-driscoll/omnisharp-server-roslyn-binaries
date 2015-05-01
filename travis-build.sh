@@ -23,8 +23,15 @@ cp -f omnisharp.cmd.patch lib/server/omnisharp.cmd
 cp -f omnisharp.patch lib/server/omnisharp
 chmod +x lib/server/omnisharp
 
+if ! type kvm > /dev/null 2>&1; then
+    curl -sSL https://raw.githubusercontent.com/aspnet/Home/release/kvminstall.sh | sh && source ~/.k/kvm/kvm.sh
+fi
+export KRE_FEED=https://www.nuget.org/api/v2
+kvm install 1.0.0-beta3
 kvm use 1.0.0-beta3
+
 pushd src/OmniSharp.TypeScriptGeneration
+kpm restore
 k run ../../lib/server
 popd
 
